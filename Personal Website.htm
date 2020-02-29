@@ -8,12 +8,82 @@
     <link rel="stylesheet" type="text/css" href="./Personal Website_files/style.css">  <!-- Insert StyleSheet -->
     <link rel="icon" href="https://cardadfar.github.io/stuco_webdev_website/assets/files/cool-icon.png">                    <!-- Insert Icon -->
     <script src="./Personal Website_files/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <p> This is Mukund Subramaniam's Website </p>
+    <style type="text/css">
+
+    .nav-bar {
+        width: 100%;
+        height: 5vw;
+        margin: 0;
+        background: #274C77;
+        display: flex;
+        justify-content: center;
+        /* Toggle between static and sticky */
+        position: sticky;
+        top: 0;
+    }
+
+    .nav-bar > .element {
+        width: 25%;
+        line-height: 5vw;
+        text-align: center;
+        color: white;
+        margin: 0;
+        font-family: Arial;
+        text-decoration: none;
+        font-size: 2vw;
+        font-family: 'Encode Sans Semi Expanded';
+    }
+
+    .nav-bar > .element:hover { 
+          font-weight: bold;
+          background: #2F5B8E;
+    }	
+
+
+    .intro-title {
+          font-size: 6vw;
+          text-align: center;
+          margin: 7%;
+          font-family: 'Titillium Web';
+          font-weight: 1000;
+
+    }
+
+
+
+
+    /* BODY */
+
+    .content {
+        width: 80%;
+        margin-left: 10%;
+        background-image: linear-gradient(to bottom right, red, yellow);
+    }
+
+</style>
+
+    <div class=nav-bar>
+        <a href='Personal Website.htm' class=element> HOME </a>
+        <a href='experience.html' class=element> EXPERIENCE </a>
+        <a href='projects.html' class=element> PROJECTS </a>
+        <a href='contact.html' class=element> CONTACT </a>
+    </div>
+
+    <div class=intro-title> 
+        <p> Mukund Subramaniam. </p>
+        <p style = "font-size: 2vw" > B.S. in Applied Mathematics </p>
+        <p style = "font-size: 2vw" > Carnegie Mellon University '22</p>
+        <a href='Resume 2020 Summer.pdf' style="font-size: 1.5vw"> RESUME </a>
+    </div>
+
+    <!-- <img src=cmu_logo.jpg> -->
+
 
     <script type="text/javascript" src="./Personal Website_files/interactions.js"></script>    <!-- Insert JQuery Script -->
-
 
 </body></html>
